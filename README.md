@@ -2,7 +2,7 @@
 
 <a name="readme-top"></a>
 
-<img src="https://placehold.co/1200x300/1e1e1e/ffffff?text=Visitka+Site+Banner" alt="Portfolio Banner" width="100%" />
+<img src="assets/banner.png" alt="Portfolio Banner" width="100%" />
 
 # ✨ Modern Portfolio & Landing Page
 
