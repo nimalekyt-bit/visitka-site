@@ -1,69 +1,88 @@
-# ✨ Visitka Site
+<div align="center">
+  <h1>✨ Modern Portfolio & Landing Page</h1>
 
-[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js&logoColor=white)]()
-[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)]()
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript&logoColor=white)]()
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwind-css&logoColor=white)]()
-[![Sanity CMS](https://img.shields.io/badge/Sanity-CMS-F36458?logo=sanity&logoColor=white)]()
+  **A sleek, animated, CMS-driven personal website.**
 
-*(Scroll down for Russian version / Прокрутите вниз для русской версии)*
+  [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)]()
+  [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]()
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)]()
+  [![Sanity](https://img.shields.io/badge/Sanity-F36458?style=for-the-badge&logo=sanity&logoColor=white)]()
 
-## 🇬🇧 English
-
-**Visitka Site** is a modern personal portfolio and landing page built with Next.js, TypeScript, and Sanity CMS.
-
-The site is designed to be a compact, highly-polished personal page with animated sections, editable content, and a built-in Sanity Studio route for seamless content management.
-
-### ✨ Key Features
-- **Responsive Landing Page:** Beautiful, mobile-first design tailored for personal branding.
-- **Headless CMS Driven:** Fully integrated with Sanity CMS for dynamic content updates.
-- **Built-in Studio:** Manage your content directly from the `/studio` route without leaving the site.
-- **Smooth Animations:** Powered by Framer Motion for a premium user experience.
-- **Fallback Content:** The app gracefully falls back to local mock data if the Sanity environment is not configured.
-
-### 🛠 Tech Stack
-- **Framework:** Next.js (App Router), React
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS, Styled Components
-- **Animations:** Framer Motion
-- **CMS:** Sanity CMS
-
-### 🚀 Quick Start
-```bash
-npm install
-copy .env.example .env.local
-npm run dev
-```
-- **Site:** `http://localhost:3000`
-- **Sanity Studio:** `http://localhost:3000/studio`
+  [English](#english) • [Русский](#русский)
+</div>
 
 ---
 
+<a id="english"></a>
+## 🇬🇧 English
+
+Your portfolio is your digital handshake. This project is a highly-polished, responsive personal landing page engineered for performance, aesthetics, and ease of content management.
+
+Built with **Next.js App Router** and powered by **Sanity CMS**, it allows you to update your projects, skills, and bio directly from an embedded studio interface, without ever touching the code.
+
+### 💎 The Highlights
+
+- 🎨 **Premium Aesthetics**: Glassmorphism UI elements, smooth scroll, and fluid micro-animations powered by `Framer Motion`.
+- 📝 **Headless CMS Integration**: Content is fully decoupled. Log into `/studio` to add new projects or update your resume instantly.
+- ⚡ **Blazing Fast**: Leverages Next.js server components and optimized image loading.
+- 🛡️ **Bulletproof**: Written in strict TypeScript. If you haven't set up Sanity yet, the app gracefully falls back to local mock data.
+
+<br>
+
+<div align="center">
+  <!-- TODO: Replace with actual screenshot -->
+  <img src="https://placehold.co/800x400/1e1e1e/ffffff?text=Drop+your+awesome+screenshot+here" alt="Portfolio Screenshot" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+</div>
+
+<br>
+
+### 🚀 Getting Started
+
+1. **Clone & Install**
+   ```bash
+   git clone https://github.com/nimalekyt-bit/visitka-site.git
+   cd visitka-site
+   npm install
+   ```
+
+2. **Environment Variables**
+   Copy `.env.example` to `.env.local` and add your Sanity credentials.
+   ```bash
+   NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
+   NEXT_PUBLIC_SANITY_DATASET=production
+   ```
+
+3. **Run the Magic**
+   ```bash
+   npm run dev
+   ```
+   - View site: `http://localhost:3000`
+   - Access CMS: `http://localhost:3000/studio`
+
+<br><br>
+
+---
+
+<a id="русский"></a>
 ## 🇷🇺 Русский
 
-**Visitka Site** — это современный сайт-визитка и личное портфолио, созданное на базе Next.js, TypeScript и Sanity CMS.
+Стильный, быстрый и современный сайт-визитка, разработанный для того, чтобы производить впечатление. 
 
-Сайт спроектирован как компактная и красивая личная страница с анимированными секциями и встроенной админ-панелью Sanity Studio для удобного управления контентом.
+Проект построен на передовом стеке (**Next.js + Tailwind + Framer Motion**) и использует **Sanity CMS**, чтобы вы могли редактировать текст и добавлять новые проекты прямо через удобную встроенную админку, не трогая код.
 
-### ✨ Главные возможности
-- **Адаптивный дизайн:** Красивая верстка, отлично работающая на телефонах и ПК.
-- **Управление контентом (CMS):** Полная интеграция с Sanity CMS для изменения текста и проектов "на лету".
-- **Встроенная админка:** Редактирование контента доступно прямо по роуту `/studio`.
-- **Плавные анимации:** Реализованы с помощью библиотеки Framer Motion для премиального внешнего вида.
-- **Работа без базы данных:** Если переменные окружения Sanity не настроены, сайт использует локальные fallback-данные для демонстрации.
+### 💎 Ключевые особенности
 
-### 🛠 Стек технологий
-- **Фреймворк:** Next.js (App Router), React
-- **Язык:** TypeScript
-- **Стилизация:** Tailwind CSS, Styled Components
-- **Анимации:** Framer Motion
-- **CMS:** Sanity
+- 🎨 **Премиальный дизайн**: Плавные анимации, эффекты матового стекла и адаптивная верстка (Mobile First).
+- 📝 **Встроенная CMS**: Редактируйте контент через роут `/studio` прямо на вашем сайте.
+- ⚡ **Оптимизация**: Использование серверных компонентов Next.js для молниеносной загрузки.
+- 🛡️ **Надежность**: Строгая типизация (TypeScript) и умная система `fallback-данных` — если CMS не настроена, сайт покажет тестовые данные, а не упадет с ошибкой.
 
-### 🚀 Быстрый старт
+### 🚀 Установка
+
 ```bash
+git clone https://github.com/nimalekyt-bit/visitka-site.git
+cd visitka-site
 npm install
-copy .env.example .env.local
+copy .env.example .env.local  # Укажите свои данные Sanity
 npm run dev
 ```
-- **Сайт:** `http://localhost:3000`
-- **Студия (админка):** `http://localhost:3000/studio`
