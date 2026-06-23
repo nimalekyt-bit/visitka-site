@@ -2,7 +2,7 @@
 
 <a name="readme-top"></a>
 
-<img src="assets/screenshot.png" alt="Portfolio Banner" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+<img src="assets/hero.png" alt="Portfolio Hero" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
 
 # ✨ Modern Portfolio & Landing Page
 
@@ -39,6 +39,13 @@
 </details>
 
 <br/>
+
+## 📸 Gallery <a id="gallery"></a>
+
+<p align="center">
+  <img src="assets/projects.png" width="48%" style="border-radius: 8px; border: 1px solid #333;" />
+  <img src="assets/footer.png" width="48%" style="border-radius: 8px; border: 1px solid #333;" />
+</p>
 
 ## 🇬🇧 English <a id="english"></a>
 
