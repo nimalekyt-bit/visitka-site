@@ -6,6 +6,10 @@
 
 # ✨ Modern Portfolio & Landing Page
 
+<p align="left">
+  <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnimalekyt-bit%2Fvisitka-site"><img src="https://vercel.com/button" alt="Deploy with Vercel"/></a>
+</p>
+
 <p align="center">
   <strong>A sleek, animated, CMS-driven personal website.</strong>
 </p>
