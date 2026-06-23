@@ -1,40 +1,60 @@
 <div align="center">
-  <h1>✨ Modern Portfolio & Landing Page</h1>
 
-  **A sleek, animated, CMS-driven personal website.**
+<a name="readme-top"></a>
 
-  [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)]()
-  [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]()
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)]()
-  [![Sanity](https://img.shields.io/badge/Sanity-F36458?style=for-the-badge&logo=sanity&logoColor=white)]()
+<img src="https://placehold.co/1200x300/1e1e1e/ffffff?text=Visitka+Site+Banner" alt="Portfolio Banner" width="100%" />
 
-  [English](#english) • [Русский](#русский)
+# ✨ Modern Portfolio & Landing Page
+
+<p align="center">
+  <strong>A sleek, animated, CMS-driven personal website.</strong>
+</p>
+
+<p align="center">
+  <a href="#english">English</a> • <a href="#русский">Русский</a>
+</p>
+
+<p align="center">
+  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind"></a>
+  <a href="https://www.sanity.io/"><img src="https://img.shields.io/badge/Sanity-F36458?style=flat-square&logo=sanity&logoColor=white" alt="Sanity"></a>
+  <a href="https://github.com/nimalekyt-bit/visitka-site/stargazers"><img src="https://img.shields.io/github/stars/nimalekyt-bit/visitka-site?style=flat-square" alt="Stars"></a>
+</p>
+
 </div>
 
----
+<br/>
 
-<a id="english"></a>
-## 🇬🇧 English
+<details>
+<summary><kbd>Table of contents</kbd></summary>
 
-Your portfolio is your digital handshake. This project is a highly-polished, responsive personal landing page engineered for performance, aesthetics, and ease of content management.
+- [🇬🇧 English](#-english)
+  - [✨ Features](#-features)
+  - [🚀 Getting Started](#-getting-started)
+- [🇷🇺 Русский](#-русский)
+  - [✨ Возможности](#-возможности)
+  - [🚀 Установка](#-установка)
 
-Built with **Next.js App Router** and powered by **Sanity CMS**, it allows you to update your projects, skills, and bio directly from an embedded studio interface, without ever touching the code.
+</details>
 
-### 💎 The Highlights
+<br/>
 
-- 🎨 **Premium Aesthetics**: Glassmorphism UI elements, smooth scroll, and fluid micro-animations powered by `Framer Motion`.
-- 📝 **Headless CMS Integration**: Content is fully decoupled. Log into `/studio` to add new projects or update your resume instantly.
-- ⚡ **Blazing Fast**: Leverages Next.js server components and optimized image loading.
-- 🛡️ **Bulletproof**: Written in strict TypeScript. If you haven't set up Sanity yet, the app gracefully falls back to local mock data.
+## 🇬🇧 English <a id="english"></a>
 
-<br>
+> [!NOTE]
+> **Star Us!** If you like this template, please consider giving it a ⭐️!
 
-<div align="center">
-  <!-- TODO: Replace with actual screenshot -->
-  <img src="https://placehold.co/800x400/1e1e1e/ffffff?text=Drop+your+awesome+screenshot+here" alt="Portfolio Screenshot" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
-</div>
+Your portfolio is your digital handshake. This project is a highly-polished, responsive personal landing page engineered for performance, aesthetics, and ease of content management using Next.js App Router and Sanity CMS.
 
-<br>
+### ✨ Features
+
+| Highlight | Details |
+| :--- | :--- |
+| 🎨 **Premium Aesthetics** | Glassmorphism, smooth scrolling, and micro-animations with `Framer Motion`. |
+| 📝 **Built-in CMS Studio** | Manage content directly from the `/studio` route without leaving the site. |
+| ⚡ **Blazing Fast** | Leverages Next.js server components and optimized image loading. |
+| 🛡️ **Bulletproof** | Written in TypeScript. Fallbacks gracefully to local data if CMS is unconfigured. |
 
 ### 🚀 Getting Started
 
@@ -45,7 +65,7 @@ Built with **Next.js App Router** and powered by **Sanity CMS**, it allows you t
    npm install
    ```
 
-2. **Environment Variables**
+2. **Environment Setup**
    Copy `.env.example` to `.env.local` and add your Sanity credentials.
    ```bash
    NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
@@ -56,33 +76,38 @@ Built with **Next.js App Router** and powered by **Sanity CMS**, it allows you t
    ```bash
    npm run dev
    ```
-   - View site: `http://localhost:3000`
-   - Access CMS: `http://localhost:3000/studio`
+   * Site: `http://localhost:3000`
+   * CMS Studio: `http://localhost:3000/studio`
 
-<br><br>
+<p align="right"><a href="#readme-top">⤴️ Back to Top</a></p>
 
 ---
 
-<a id="русский"></a>
-## 🇷🇺 Русский
+## 🇷🇺 Русский <a id="русский"></a>
 
-Стильный, быстрый и современный сайт-визитка, разработанный для того, чтобы производить впечатление. 
+> [!NOTE]
+> **Поддержите проект!** Если этот шаблон оказался полезным, поставьте ⭐️ репозиторию.
 
-Проект построен на передовом стеке (**Next.js + Tailwind + Framer Motion**) и использует **Sanity CMS**, чтобы вы могли редактировать текст и добавлять новые проекты прямо через удобную встроенную админку, не трогая код.
+Стильный, быстрый и современный сайт-визитка, построенный на передовом стеке (Next.js + Tailwind + Framer Motion). Использует Sanity CMS для удобного редактирования проектов через встроенную админку.
 
-### 💎 Ключевые особенности
+### ✨ Возможности
 
-- 🎨 **Премиальный дизайн**: Плавные анимации, эффекты матового стекла и адаптивная верстка (Mobile First).
-- 📝 **Встроенная CMS**: Редактируйте контент через роут `/studio` прямо на вашем сайте.
-- ⚡ **Оптимизация**: Использование серверных компонентов Next.js для молниеносной загрузки.
-- 🛡️ **Надежность**: Строгая типизация (TypeScript) и умная система `fallback-данных` — если CMS не настроена, сайт покажет тестовые данные, а не упадет с ошибкой.
+| Фича | Описание |
+| :--- | :--- |
+| 🎨 **Премиальный дизайн** | Плавные анимации, эффекты матового стекла и адаптивная верстка (Mobile First). |
+| 📝 **Встроенная CMS** | Редактируйте текст и проекты прямо на вашем сайте через `/studio`. |
+| ⚡ **Оптимизация** | Серверные компоненты Next.js для молниеносной загрузки. |
+| 🛡️ **Надежность** | Если база Sanity не настроена, сайт покажет тестовые данные и не упадет. |
 
 ### 🚀 Установка
 
 ```bash
 git clone https://github.com/nimalekyt-bit/visitka-site.git
 cd visitka-site
+
 npm install
 copy .env.example .env.local  # Укажите свои данные Sanity
 npm run dev
 ```
+
+<p align="right"><a href="#readme-top">⤴️ Back to Top</a></p>
